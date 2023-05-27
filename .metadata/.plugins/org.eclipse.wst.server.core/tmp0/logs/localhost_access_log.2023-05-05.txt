@@ -1,0 +1,9 @@
+127.0.0.1 - - [05/May/2023:17:23:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:23:42 +0530] "GET /servletlogin_validation/signUp.html HTTP/1.1" 200 402
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:23:42 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [05/May/2023:17:24:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:45 +0530] "POST /servletlogin_validation/signup HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2023:17:26:15 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:26:15 +0530] "GET /servletlogin_validation/signUp.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:26:43 +0530] "POST /servletlogin_validation/signup HTTP/1.1" 200 25
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:27:59 +0530] "GET /servletlogin_validation/signUp.html HTTP/1.1" 304 -

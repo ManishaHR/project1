@@ -1,0 +1,16 @@
+package iocBasic;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+
+public class TestMobile {
+	
+	public static void main(String[] args) {
+		ClassPathResource resource=new ClassPathResource("ioc1.xml");
+		BeanFactory bf= new XmlBeanFactory(resource);
+		Mobile mobile= (Mobile) bf.getBean("mymobile");
+		mobile.musicPlayer();
+	}
+
+}
